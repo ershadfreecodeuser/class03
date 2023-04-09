@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+}
+p{
+	margin: 0;
+	font-family: roboto;
+	font: 28px;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	background: #ffffff;
+	display: flex;
+	
+	
+
+}
+.column{
+	flex-basis: 33.33%;
+	padding: 20px 10px;
+	display: flex;
+	
+
+}
+
+
+
+.box_03 , .box_02 , .box_01 {
+   padding: 30px;
+   display: flex;
+   align-items: center;
+   box-shadow: 0px 0px 10px 3px #10101024;
+   border-radius: 10px;
+   transition-duration: 0.4s;
+}
+
+
+.box_03:hover , .box_02:hover , .box_01:hover {
+   
+    
+    box-shadow: 0px 0px 3px 3px #10101024;
+    
+}
